@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'KI-Dokumentenextraktor',
+    home: 'KI-Datenanalyse-Berichtgenerator',
     features: 'Funktionen',
     faq: 'FAQ',
     pricing: 'Preise',
@@ -8,142 +8,139 @@ export default {
     points: 'Punkte: {points}'
   },
   hero: {
-    title: 'Extrahieren Sie Artikel-Essenz mit einem Klick, verwandeln Sie komplexe Inhalte in schöne Wissensbilder',
-    subtitle: '✨ Machen Sie komplexe Inhalte einfach und verständlich, machen Sie die Wissensvermittlung effizienter ✨',
+    title: 'KI-Datenanalyse-Berichtgenerator, Machen Sie Dateninsights Sichtbar',
+    subtitle: '✨ Schnelle Datenanalyse, Professionelle Berichte, Entscheidungsunterstützung ✨',
     tags: {
-      free: 'Intelligente Extraktion',
-      ai: 'Schöne Bilder',
-      noRegister: 'Ein-Klick-Bedienung',
-      unlimited: 'Effizientes Lernen'
+      free: 'Intelligente Analyse',
+      ai: 'Professionelle Berichte',
+      noRegister: 'Ein-Klick-Generierung',
+      unlimited: 'Dateninsights'
     }
   },
   upload: {
     title: 'Dateien hier ablegen oder klicken zum Hochladen',
     subtitle: 'Unterstützt PDF, Word, TXT und mehr',
     button: 'Datei auswählen',
-    converting: 'Konvertierung läuft...',
-    success: 'Konvertierung erfolgreich',
-    error: 'Konvertierung fehlgeschlagen',
-    retry: 'Wiederholen',
+    converting: 'Analyse läuft...',
+    success: 'Analyse abgeschlossen',
+    error: 'Analyse fehlgeschlagen',
+    retry: 'Erneut versuchen',
     cancel: 'Abbrechen',
-    fileSizeExceeded: 'Dateigröße überschreitet Limit, bitte upgraden',
+    fileSizeExceeded: 'Dateigröße überschreitet das Limit. Upgrade erforderlich',
     needLogin: 'Bitte melden Sie sich an, um Dateien hochzuladen'
   },
   preview: {
-    title: 'Ergebnisvorschau',
+    title: 'Vorschau des Analyseberichts',
     download: 'HTML herunterladen',
     copy: 'HTML kopieren',
     copySuccess: 'Erfolgreich kopiert',
-    copyError: 'Kopieren fehlgeschlagen'
+    copyError: 'Kopieren fehlgeschlagen',
+    noContent: 'Kein Inhalt'
   },
   features: {
-    title: 'Hauptfunktionen der KI-Artikelessenz-Extraktion',
-    subtitle: 'Erleben Sie die nächste Generation der KI-Artikelessenz-Extraktion - Intelligente Analyse, Präzise Extraktion, Effizientes Lernen',
+    title: 'Hauptfunktionen des KI-Datenanalyse-Berichtgenerators',
+    subtitle: 'KI-Datenanalyse-Berichtgenerierung der nächsten Generation - Intelligente Analyse, Professionelle Berichte, Dateninsights',
     cards: {
       free: {
-        title: 'Keine Kosten',
-        desc: 'Vollständig kostenloser KI-Dokumentenkonverter ohne Nutzungslimit und ohne Registrierung.'
+        title: 'Kostenlos',
+        desc: 'Völlig kostenloser KI-Datenanalyse-Berichtgenerator, keine Nutzungsbeschränkungen, keine Registrierung erforderlich.'
       },
       quality: {
         title: 'Höchste Qualität',
-        desc: 'Angetrieben von Claude AI, garantiert Konvertierungsergebnisse höchster Qualität.'
+        desc: 'Basiert auf Claude KI, garantiert höchste Qualität der Analyseberichte.'
       },
       smart: {
-        title: 'Intelligentes Verständnis',
-        desc: 'Erkennt präzise die Dokumentstruktur und behält das ursprüngliche Format und Styling bei.'
+        title: 'Intelligente Analyse',
+        desc: 'Präzise Identifizierung der Datenstruktur, Beibehaltung des ursprünglichen Formats und Stils.'
       },
       privacy: {
-        title: 'Verbesserter Datenschutz',
-        desc: 'Verwendet fortschrittliche Verschlüsselungstechnologie, um die Sicherheit Ihrer Dokumentinhalte zu gewährleisten, mit sofortiger Löschung aller Daten nach der Verarbeitung.'
+        title: 'Verstärkter Datenschutz',
+        desc: 'Fortschrittliche Verschlüsselungstechnologie zur Gewährleistung der Datensicherheit, sofortige Löschung nach der Verarbeitung.'
       },
       understanding: {
-        title: 'Fortschrittliches Textverständnis',
-        desc: 'Deep-Learning-Modelle verstehen Textbedeutung und kontextuelle Beziehungen, um wirklich wertvolle Informationen zu extrahieren.'
+        title: 'Fortgeschrittenes Verständnis',
+        desc: 'Deep-Learning-Modell versteht Bedeutung und Kontextbeziehungen, um wirklich wertvolle Informationen zu extrahieren.'
       },
       advanced: {
-        title: 'Modernste Qualität',
-        desc: 'Basierend auf neuester KI-Technologie, bietet branchenführende Konvertierungsqualität mit präziser Genauigkeit.'
+        title: 'Spitzenqualität',
+        desc: 'Basiert auf neuesten KI-Technologien, bietet branchenführende Analysequalität, garantiert Genauigkeit.'
       }
     },
     examples: {
-      title: 'Inspirationsgalerie',
-      subtitle: 'Geschickte Extraktion von Artikelessenzen',
+      title: 'Berichtgalerie',
+      subtitle: 'Beispiele Professioneller Datenanalyseberichte',
       tag: 'Beispiel'
     }
   },
   testimonials: {
-    title: 'Was DocSmart-Benutzer sagen',
-    subtitle: 'Hören Sie von Entwicklern und Fachleuten, die unseren KI-Dokumentenkonverter täglich nutzen.',
+    title: 'Was Nutzer über textAnalytica AI sagen',
+    subtitle: 'Hören Sie von Nutzern aus verschiedenen Branchen über unser KI-gestütztes Datenanalyse-Tool',
     list: [
       {
-        name: 'Thomas Schmidt',
-        title: 'Technischer Dokumentationsingenieur',
-        text: 'DocSmart hat unseren Dokumentationsprozess revolutioniert. Die KI-gestützte Konvertierung ist unglaublich präzise und spart uns unzählige Stunden.',
+        name: 'Zhang Ming',
+        title: 'Datenanalyst | Technologieunternehmen',
+        text: 'Die intelligenten Analysefähigkeiten von textAnalytica AI sind beeindruckend. Es versteht schnell komplexe Datenstrukturen und generiert professionelle Analyseberichte. Ich schätze besonders die mehrsprachige Unterstützung, die es mir ermöglicht, chinesische und englische Daten gleichzeitig zu verarbeiten und meine Arbeitseffizienz erheblich zu steigern.',
         avatar: ''
       },
       {
-        name: 'Anna Weber',
-        title: 'Universitätsforscherin',
-        text: 'Die Fähigkeit, komplexe Formatierungen bei der Konvertierung akademischer Arbeiten beizubehalten, ist von unschätzbarem Wert. DocSmart versteht die Dokumentstruktur perfekt.',
+        name: 'Li Hua',
+        title: 'Marktforschungsmanager',
+        text: 'Als Marktforschungsmanager muss ich häufig große Mengen von Marktdaten analysieren. textAnalytica AI behält nicht nur das ursprüngliche Datenformat bei, sondern extrahiert auch intelligent wichtige Informationen, um klare Analyseberichte zu generieren. Seine KI-Analysefähigkeiten machen Dateninsights einfach und intuitiv.',
         avatar: ''
       },
       {
-        name: 'Michael Bauer',
-        title: 'Unternehmensberater',
-        text: 'DocSmart optimiert unseren Workflow durch schnelle Konvertierung von Kundendokumenten bei gleichzeitiger Beibehaltung ihres professionellen Erscheinungsbildes.',
+        name: 'Wang Fang',
+        title: 'Finanzdirektorin',
+        text: 'Bei der Verarbeitung von Finanzberichten ist die Formatierungserhaltungsfunktion von textAnalytica AI hervorragend. Es erkennt präzise komplexe Formate wie Tabellen und Diagramme und generiert professionelle und ansprechende Analyseberichte. Die Datensicherheitsmaßnahmen geben mir ebenfalls Vertrauen.',
         avatar: ''
       },
       {
-        name: 'Sarah Fischer',
-        title: 'Medizinische Dokumentarin',
-        text: 'Die Genauigkeit und Sicherheitsfunktionen von DocSmart machen es perfekt für die Verarbeitung sensibler medizinischer Dokumentation.',
+        name: 'Chen Qiang',
+        title: 'Produktmanager',
+        text: 'textAnalytica AI bietet eine sehr benutzerfreundliche Erfahrung. Nach dem Hochladen der Dateien analysiert die KI schnell und generiert Berichte, wodurch der gesamte Prozess flüssig und natürlich ist. Die Visualisierungseffekte der Berichte sind ebenfalls ausgezeichnet und machen die Datenpräsentation lebendiger.',
         avatar: ''
       },
       {
-        name: 'Robert Wagner',
-        title: 'Rechtsberater',
-        text: 'Die Konvertierungsqualität und Formaterhaltung von DocSmart sind für unsere rechtlichen Dokumentationsanforderungen unerlässlich.',
+        name: 'Liu Ting',
+        title: 'Forschungsassistentin',
+        text: 'Bei der Verarbeitung von akademischen Forschungsdaten sind die intelligenten Analysefähigkeiten von textAnalytica AI eine große Hilfe. Es versteht präzise Fachterminologie, extrahiert wichtige Informationen und generiert gut strukturierte Forschungsberichte. Die mehrsprachige Unterstützungsfunktion ermöglicht es mir auch, internationale Forschungsdaten einfach zu verarbeiten.',
+        avatar: ''
+      },
+      {
+        name: 'Zhao Yang',
+        title: 'Betriebsleiter',
+        text: 'Die Datensicherheitsmaßnahmen von textAnalytica AI geben mir großes Vertrauen. Es verwendet fortschrittliche Verschlüsselungstechnologie, um die Datensicherheit zu gewährleisten. Darüber hinaus sind seine KI-Analysefähigkeiten leistungsstark und generieren schnell professionelle Betriebsanalyseberichte, um uns bei besseren Entscheidungen zu unterstützen.',
         avatar: ''
       }
     ]
   },
   faq: {
-    title: 'Häufig gestellte Fragen',
-    subtitle: 'Weitere Fragen? Kontaktieren Sie uns',
-    emailName: '758771757',
-    emailDomain: 'qq.com',
+    title: 'Häufig Gestellte Fragen',
+    subtitle: 'Häufig Gestellte Fragen zum KI-Datenanalyse-Berichtgenerator',
     questions: [
       {
-        q: 'Was ist KI-Dokumentenextraktion? Wie hilft sie mir, Artikel-Essenz zu extrahieren?',
-        a: 'KI-Dokumentenextraktion ist ein intelligentes Tool, das automatisch Artikelinhalte analysiert, Kernaussagen und wichtige Informationen extrahiert und komplexe, umfangreiche Inhalte in schöne Wissensbilder umwandelt. Es hilft Ihnen, schnell die wichtigsten Punkte eines Artikels zu verstehen, Lesestunden zu sparen und die Effizienz von Lernen und Arbeit zu verbessern.'
+        q: 'Was ist der KI-Datenanalyse-Berichtgenerator?',
+        a: 'Der KI-Datenanalyse-Berichtgenerator ist ein intelligentes Tool, das automatisch Daten analysiert und professionelle Analyseberichte generiert. Es verwendet fortschrittliche KI-Technologien, um Dateninhalte zu verstehen, wichtige Informationen zu extrahieren und Analyseergebnisse klar und professionell darzustellen.'
       },
       {
-        q: 'Welche Vorteile haben Wissensbilder? Warum sind sie effektiver als traditionelle Notizen?',
-        a: 'Wissensbilder nutzen visuelle Darstellung, um komplexe Informationen zu strukturieren und zu vereinfachen, was das Verständnis und die Erinnerung erleichtert. Im Vergleich zu traditionellen Notizen sind Wissensbilder intuitiver, visuell ansprechender und informationsreicher. Sie sind leichter zu teilen und zu überprüfen, was die Lerneffizienz und Wissensaufnahme deutlich verbessert.'
+        q: 'Welche Datenformate werden unterstützt?',
+        a: 'Wir unterstützen verschiedene gängige Datenformate, einschließlich PDF, Word-Dokumente (DOC/DOCX), Textdateien (TXT) und mehr. Das System kann Finanzberichte, Verkaufsdaten, Marktforschungsberichte und andere Arten von Daten aus verschiedenen Bereichen verarbeiten und ermöglicht intelligente Analyse und Berichtgenerierung basierend auf den Datenmerkmalen.'
       },
       {
-        q: 'Wie stellt die KI sicher, dass der extrahierte Inhalt die ursprüngliche Essenz genau wiedergibt?',
-        a: 'Wir verwenden fortschrittliche Deep-Learning-Modelle, die Textbedeutungen und kontextuelle Beziehungen verstehen, um Kernaussagen, Schlüsselargumente und wichtige Schlussfolgerungen zu identifizieren. Unsere KI konzentriert sich nicht nur auf Schlüsselwörter, sondern versteht auch logische Beziehungen zwischen Sätzen und stellt sicher, dass der extrahierte Inhalt die Essenz und die Absicht des Autors genau wiedergibt.'
+        q: 'Sind die Daten sicher? Wie wird der Datenschutz gewährleistet?',
+        a: 'Wir verwenden fortschrittliche Verschlüsselungstechnologie zum Schutz der Daten. Hochgeladene Daten werden nur für die Analyseverarbeitung verwendet und nach Abschluss sofort vom Server gelöscht. Wir speichern keine Originaldaten. Der gesamte Prozess läuft in einer sicheren Umgebung ab, die den höchsten Standard des Datenschutzes gewährleistet.'
       },
       {
-        q: 'Welche Arten von Dokumenten werden unterstützt? Kann das System spezialisierte Inhalte verarbeiten?',
-        a: 'Wir unterstützen verschiedene gängige Dokumentformate, darunter PDF, Word-Dokumente (DOC/DOCX), Textdateien (TXT) und mehr. Das System kann Artikel aus verschiedenen Fachgebieten verarbeiten, darunter wissenschaftliche Arbeiten, technische Dokumentationen, Geschäftsberichte, Nachrichtenartikel usw., und kann basierend auf den Eigenschaften verschiedener Bereiche intelligent analysieren und extrahieren.'
-      },
-      {
-        q: 'Ist mein Dokumenteninhalt sicher? Wie wird die Privatsphäre geschützt?',
-        a: 'Wir verwenden fortschrittliche Verschlüsselungstechnologie, um Ihre Dokumenteninhalte zu schützen. Alle hochgeladenen Dokumente werden nur für die Extraktionsverarbeitung verwendet und nach Abschluss sofort vom Server gelöscht. Wir speichern keine Originalinhalte. Der gesamte Prozess findet in einer sicheren Umgebung statt, wodurch Ihre Datenprivatsphäre auf höchstem Niveau geschützt wird.'
-      },
-      {
-        q: 'Kann ich die generierten Wissensbilder anpassen oder bearbeiten?',
-        a: 'Ja, die vom System generierten Wissensbilder können im HTML-Format heruntergeladen werden, das Sie nach Bedarf bearbeiten und anpassen können. In Zukunft werden wir mehr Anpassungsoptionen einführen, einschließlich Bildstile, Layoutstrukturen, Hervorhebungsmarkierungen und andere Funktionen, um Ihre Wissensbilder persönlicher und praktischer zu gestalten.'
+        q: 'Kann ich die generierten Berichte anpassen oder bearbeiten?',
+        a: 'Ja, die vom System generierten Berichte können im HTML-Format heruntergeladen und nach Bedarf bearbeitet und angepasst werden. In Zukunft werden wir weitere Anpassungsoptionen hinzufügen, einschließlich Berichtstile, Diagrammtypen, Analysedimensionen und mehr, um die Berichte noch personalisierter und praktischer zu gestalten.'
       },
       {
         q: 'Ist dieser Service kostenpflichtig? Gibt es Nutzungsbeschränkungen?',
-        a: 'Wir bieten einen grundlegenden kostenlosen Service an, der neuen Nutzern ermöglicht, 3 vollständige Dokumentumwandlungen kostenlos zu erleben und die leistungsstarken KI-Extraktionsfunktionen kennenzulernen. Für Nutzer, die häufigeren Zugriff benötigen, bieten wir wertvolle Premium-Pläne an, die unbegrenzte Umwandlungen und zusätzliche erweiterte Funktionen freischalten. Unsere Preisstrategie zielt darauf ab, Zugänglichkeit mit Nachhaltigkeit zu verbinden, sodass jeder dieses leistungsstarke Tool erleben kann, während Vielnutzern erweiterte Funktionalität geboten wird.'
+        a: 'Wir bieten einen grundlegenden kostenlosen Service an, der es neuen Nutzern ermöglicht, die vollständige Generierung von 3 Datenanalyseberichten kostenlos zu testen. Dies ermöglicht es, die leistungsstarken KI-Analysefunktionen vollständig zu erleben. Für Nutzer, die häufigeren Zugriff benötigen, bieten wir einen wertvollen Premium-Plan mit unbegrenzter Analyse und zusätzlichen erweiterten Funktionen.'
       },
       {
-        q: 'Wird mehrsprachige Dokumentenverarbeitung unterstützt?',
-        a: 'Ja, unser KI-System kann Dokumente in mehreren Sprachen erkennen und verarbeiten, einschließlich Deutsch, Englisch und anderen Hauptsprachen. Unabhängig von der Sprache Ihres Dokuments können wir hochwertige Essenz-Extraktion und Wissensbild-Generierung anbieten.'
+        q: 'Unterstützt es mehrsprachige Datenanalyse?',
+        a: 'Ja, unser KI-System kann Daten in mehreren Sprachen erkennen und verarbeiten, einschließlich Englisch, Chinesisch und anderen Hauptsprachen. Unabhängig von der Sprache der Daten können wir einen hochwertigen Service für Datenanalyse und Berichtgenerierung bereitstellen.'
       }
     ]
   },
@@ -152,8 +149,8 @@ export default {
     loading: 'Wird geladen...'
   },
   login: {
-    title: 'Bei DocSmart anmelden',
-    subtitle: 'Melden Sie sich mit Ihrem Google-Konto an, um fortzufahren',
+    title: 'Bei textAnalytica AI anmelden',
+    subtitle: 'Erleben Sie die besten Funktionen von textAnalytica AI: Schnellere Dokumentenverarbeitung und erweiterte Formaterhaltung',
     terms: 'Durch die Anmeldung stimmen Sie unseren',
     termsLink: 'Nutzungsbedingungen und Datenschutzrichtlinien zu',
     success: 'Anmeldung erfolgreich',
@@ -176,7 +173,7 @@ export default {
   },
   pricing: {
     title: 'Wählen Sie Ihren Plan',
-    subtitle: 'Erleben Sie die besten Funktionen von TextQantum AI: schnellere Dokumentenverarbeitung und erweiterte Formaterhaltung',
+    subtitle: 'Erleben Sie die besten Funktionen von textAnalytica AI: Schnellere Dokumentenverarbeitung und erweiterte Formaterhaltung',
     monthly: 'Monatsabonnement',
     yearly: 'Jahresabonnement (20% sparen)',
     highTier: {
@@ -245,15 +242,15 @@ export default {
         },
         {
           question: 'Kann ich Hilfe mit dem Produkt erhalten?',
-          answer: 'Ja!\nSie können uns unter support@textqantum.ai für jede benötigte Unterstützung kontaktieren.'
+          answer: 'Ja!\nFür Unterstützung kontaktieren Sie uns bitte unter support@textanalytica.ai'
         },
         {
           question: 'Was ist die Enterprise-Stufe?',
-          answer: 'Wenn Sie einzigartige Anwendungsfälle haben und mehr über die Preise erfahren möchten, kontaktieren Sie uns bitte unter sales@textqantum.ai.'
+          answer: 'Wenn Sie einen einzigartigen Anwendungsfall haben und mehr über die Preisgestaltung erfahren möchten, kontaktieren Sie uns bitte unter sales@textanalytica.ai'
         },
         {
           question: 'Muss ich ein kostenpflichtiger Benutzer sein, um konvertierte Dokumente für kommerzielle Zwecke zu verwenden?',
-          answer: 'Nein. Solange Sie die Nutzungsbedingungen einhalten, können Sie unsere Dokumentkonvertierungsfunktionen frei für persönliche, akademische oder kommerzielle Zwecke nutzen!\nWenn Sie ein kostenloser Benutzer sind, geben Sie bitte bei der Verwendung an, dass das Dokument von TextQantum AI konvertiert wurde.'
+          answer: 'Nein. Sie können die Dokumentenkonvertierungsfunktionen frei für persönliche, akademische oder kommerzielle Zwecke nutzen, solange Sie unsere Nutzungsbedingungen einhalten!\nAls kostenloser Benutzer geben Sie bitte an, dass die Konvertierung von textAnalytica AI durchgeführt wurde.'
         },
         {
           question: 'Beinhaltet mein Abonnement API-Zugriff?',
@@ -268,11 +265,11 @@ export default {
     sections: {
       acceptance: {
         title: 'Annahme der Bedingungen',
-        content: 'Willkommen bei DocSmart. Durch die Nutzung unseres Services stimmen Sie diesen Bedingungen zu. Wenn Sie einem Teil dieser Bedingungen nicht zustimmen, nutzen Sie bitte unseren Service nicht.'
+        content: 'Willkommen bei textAnalytica AI. Durch die Nutzung unserer Dienste stimmen Sie diesen Bedingungen zu. Wenn Sie mit einem Teil dieser Bedingungen nicht einverstanden sind, nutzen Sie bitte unsere Dienste nicht.'
       },
       description: {
         title: 'Servicebeschreibung',
-        content: 'DocSmart AI bietet KI-gestützte Dokumentenkonvertierungsdienste an. Unsere Services umfassen:',
+        content: 'textAnalytica AI bietet einen KI-gestützten Dokumentenkonvertierungsdienst. Unsere Dienste umfassen:',
         items: [
           'KI-gestützte Dokumentenkonvertierung',
           'Textextraktion und -analyse',
@@ -340,7 +337,7 @@ export default {
       },
       contact: {
         title: 'Kontakt',
-        content: 'Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter support@docsmart.app.'
+        content: 'Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter support@textanalytica.ai.'
       }
     }
   },
@@ -350,7 +347,7 @@ export default {
     sections: {
       intro: {
         title: 'Einführung',
-        content: 'Bei DocSmart nehmen wir Ihre Privatsphäre sehr ernst. Diese Datenschutzerklärung erläutert, wie wir Ihre Informationen sammeln, verwenden und schützen, wenn Sie unseren KI-Dokumentenkonvertierungsservice (docsmart.app, nachfolgend als "Service" bezeichnet) nutzen.'
+        content: 'Bei textAnalytica AI nehmen wir Ihre Privatsphäre sehr ernst. Diese Datenschutzerklärung erläutert, wie wir Ihre Informationen sammeln, verwenden und schützen, wenn Sie unseren KI-Dokumentenkonvertierungsservice (textAnalytica.app, nachfolgend als "Service" bezeichnet) nutzen.'
       },
       noCollection: {
         title: 'Informationen, die wir nicht sammeln',
@@ -409,7 +406,7 @@ export default {
       },
       contact: {
         title: 'Kontakt',
-        content: 'Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter support@docsmart.app.'
+        content: 'Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter support@textanalytica.ai.'
       },
       legal: {
         title: 'Rechtsgrundlage',

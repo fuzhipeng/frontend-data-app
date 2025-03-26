@@ -1,149 +1,148 @@
 export default {
   nav: {
-    home: 'Extractor de documentos AI',
+    home: 'Generador de Informes de Análisis de Datos IA',
     features: 'Características',
-    faq: 'FAQ',
+    faq: 'Preguntas Frecuentes',
     pricing: 'Precios',
-    login: 'Iniciar sesión',
+    login: 'Iniciar Sesión',
     points: 'Puntos: {points}'
   },
   hero: {
-    title: 'Extraiga la esencia de los artículos con un clic, transforme contenido complejo en hermosas imágenes de conocimiento',
-    subtitle: '✨ Hacer que el contenido complejo sea simple y comprensible, hacer que el compartir conocimiento sea más eficiente ✨',
+    title: 'Generador de Informes de Análisis de Datos IA, Haga Visibles los Insights',
+    subtitle: '✨ Análisis Rápido de Datos, Informes Profesionales, Soporte para Decisiones ✨',
     tags: {
-      free: 'Extracción Inteligente',
-      ai: 'Imágenes Hermosas',
-      noRegister: 'Operación de Un Clic',
-      unlimited: 'Aprendizaje Eficiente'
+      free: 'Análisis Inteligente',
+      ai: 'Informes Profesionales',
+      noRegister: 'Generación en Un Clic',
+      unlimited: 'Insights de Datos'
     }
   },
   upload: {
-    title: 'Suelta archivos aquí o haz clic para subir',
+    title: 'Suelte archivos aquí o haga clic para subir',
     subtitle: 'Soporta PDF, Word, TXT y más',
-    button: 'Elegir archivo',
-    converting: 'Convirtiendo...',
-    success: 'Conversión exitosa',
-    error: 'Error en la conversión',
+    button: 'Seleccionar archivo',
+    converting: 'Analizando...',
+    success: 'Análisis completado',
+    error: 'Error en el análisis',
     retry: 'Reintentar',
     cancel: 'Cancelar',
-    fileSizeExceeded: 'El tamaño del archivo excede el límite, actualice',
+    fileSizeExceeded: 'El tamaño del archivo excede el límite. Actualice',
     needLogin: 'Por favor, inicie sesión para subir archivos'
   },
   preview: {
-    title: 'Vista previa del resultado',
+    title: 'Vista previa del Informe de Análisis',
     download: 'Descargar HTML',
     copy: 'Copiar HTML',
-    copySuccess: 'Copiado exitosamente',
-    copyError: 'Error al copiar'
+    copySuccess: 'Copiado con éxito',
+    copyError: 'Error al copiar',
+    noContent: 'Sin contenido'
   },
   features: {
-    title: 'Características clave de la extracción de esencia de artículos con IA',
-    subtitle: 'Experimenta la extracción de esencia de artículos con IA de próxima generación - Análisis Inteligente, Extracción Precisa, Aprendizaje Eficiente',
+    title: 'Características Principales del Generador de Informes de Análisis de Datos IA',
+    subtitle: 'Experiencia de Generación de Informes de Análisis de Datos IA de Próxima Generación - Análisis Inteligente, Informes Profesionales, Insights de Datos',
     cards: {
       free: {
-        title: 'Costo cero',
-        desc: 'Convertidor de documentos AI completamente gratuito, sin límites de uso ni registro requerido.'
+        title: 'Gratuito',
+        desc: 'Generador de informes de análisis de datos IA completamente gratuito, sin límites de uso, sin registro requerido.'
       },
       quality: {
-        title: 'Calidad superior',
-        desc: 'Impulsado por Claude AI, garantizando resultados de conversión de la más alta calidad.'
+        title: 'Máxima Calidad',
+        desc: 'Basado en Claude IA, garantizando la más alta calidad en los informes de análisis.'
       },
       smart: {
-        title: 'Comprensión inteligente',
-        desc: 'Reconoce con precisión la estructura del documento, preservando el formato y estilos originales.'
+        title: 'Análisis Inteligente',
+        desc: 'Identificación precisa de la estructura de datos, preservando el formato y estilo original.'
       },
       privacy: {
-        title: 'Protección de privacidad mejorada',
-        desc: 'Utiliza tecnología de encriptación avanzada para garantizar la seguridad del contenido de tus documentos, con eliminación inmediata de todos los datos después del procesamiento.'
+        title: 'Privacidad Reforzada',
+        desc: 'Tecnología de encriptación avanzada para garantizar la seguridad de los datos, eliminación inmediata después del procesamiento.'
       },
       understanding: {
-        title: 'Comprensión avanzada de texto',
-        desc: 'Los modelos de aprendizaje profundo entienden la semántica del texto y las relaciones contextuales para extraer información verdaderamente valiosa.'
+        title: 'Comprensión Avanzada',
+        desc: 'Modelo de aprendizaje profundo que comprende significado y relaciones contextuales para extraer información verdaderamente valiosa.'
       },
       advanced: {
-        title: 'Calidad de vanguardia',
-        desc: 'Basado en la tecnología de IA más reciente, proporcionando calidad de conversión líder en la industria con precisión exacta.'
+        title: 'Calidad de Vanguardia',
+        desc: 'Basado en las últimas tecnologías IA, ofreciendo calidad de análisis líder en la industria, garantizando precisión.'
       }
     },
     examples: {
-      title: 'Galería de Inspiración',
-      subtitle: 'Extracción Ingeniosa de la Esencia del Artículo',
+      title: 'Galería de Informes',
+      subtitle: 'Ejemplos de Informes de Análisis de Datos Profesionales',
       tag: 'Ejemplo'
     }
   },
   testimonials: {
-    title: 'Lo que dicen los usuarios de DocSmart',
-    subtitle: 'Escucha a los creadores y profesionales que utilizan nuestro convertidor de documentos AI a diario.',
+    title: 'Lo que dicen los usuarios sobre textAnalytica AI',
+    subtitle: 'Escuche a usuarios de diferentes industrias sobre nuestra herramienta de análisis de datos con IA',
     list: [
       {
-        name: 'Carlos Rodríguez',
-        title: 'Ingeniero de Documentación Técnica',
-        text: 'DocSmart ha revolucionado nuestro proceso de documentación. La conversión impulsada por AI es increíblemente precisa y nos ahorra innumerables horas.',
+        name: 'Zhang Ming',
+        title: 'Analista de datos | Empresa tecnológica',
+        text: 'Las capacidades de análisis inteligente de textAnalytica AI son impresionantes. Comprende rápidamente estructuras de datos complejas y genera informes de análisis profesionales. Aprecio especialmente su soporte multilingüe, que me permite procesar datos en chino e inglés simultáneamente, mejorando significativamente mi eficiencia laboral.',
         avatar: ''
       },
       {
-        name: 'Elena Martínez',
-        title: 'Investigadora Universitaria',
-        text: 'La capacidad de mantener el formato complejo al convertir documentos académicos es invaluable. DocSmart entiende perfectamente la estructura del documento.',
+        name: 'Li Hua',
+        title: 'Gerente de investigación de mercado',
+        text: 'Como gerente de investigación de mercado, frecuentemente necesito analizar grandes cantidades de datos de mercado. textAnalytica AI no solo mantiene el formato de los datos originales sino que también extrae inteligentemente información clave para generar informes de análisis claros. Sus capacidades de análisis de IA hacen que los insights de datos sean simples e intuitivos.',
         avatar: ''
       },
       {
-        name: 'Miguel Sánchez',
-        title: 'Consultor de Gestión Empresarial',
-        text: 'DocSmart optimiza nuestro flujo de trabajo al convertir rápidamente los documentos de los clientes mientras mantiene su apariencia profesional.',
+        name: 'Wang Fang',
+        title: 'Directora financiera',
+        text: 'Al procesar estados financieros, la función de preservación de formato de textAnalytica AI es excelente. Reconoce con precisión formatos complejos como tablas y gráficos, generando informes de análisis tanto profesionales como estéticamente atractivos. Las medidas de seguridad de datos también me dan tranquilidad.',
         avatar: ''
       },
       {
-        name: 'Sara López',
-        title: 'Administradora de Registros Médicos',
-        text: 'La precisión y las características de seguridad de DocSmart lo hacen perfecto para manejar documentación médica sensible.',
+        name: 'Chen Qiang',
+        title: 'Gerente de producto',
+        text: 'textAnalytica AI ofrece una experiencia muy amigable para el usuario. Después de cargar archivos, la IA analiza rápidamente y genera informes, haciendo que todo el proceso sea fluido y natural. Los efectos de visualización de los informes también son excelentes, haciendo que la presentación de datos sea más vívida.',
         avatar: ''
       },
       {
-        name: 'Roberto García',
-        title: 'Asesor Legal',
-        text: 'La calidad de conversión y la preservación del formato de DocSmart son esenciales para nuestras necesidades de procesamiento de documentos legales.',
+        name: 'Liu Ting',
+        title: 'Asistente de investigación',
+        text: 'Al procesar datos de investigación académica, las capacidades de análisis inteligente de textAnalytica AI son de gran ayuda. Comprende con precisión la terminología profesional, extrae información clave y genera informes de investigación bien estructurados. La función de soporte multilingüe también me permite procesar fácilmente datos de investigación internacionales.',
+        avatar: ''
+      },
+      {
+        name: 'Zhao Yang',
+        title: 'Director de operaciones',
+        text: 'Las medidas de seguridad de datos de textAnalytica AI me dan gran confianza. Utiliza tecnología de encriptación avanzada para garantizar la seguridad de los datos. Además, sus capacidades de análisis de IA son potentes, generando rápidamente informes de análisis operativo profesionales para ayudarnos a tomar mejores decisiones.',
         avatar: ''
       }
     ]
   },
   faq: {
     title: 'Preguntas Frecuentes',
-    subtitle: '¿Tienes más preguntas? Contáctanos',
+    subtitle: 'Preguntas Frecuentes sobre el Generador de Informes de Análisis de Datos IA',
     emailName: '758771757',
     emailDomain: 'qq.com',
     questions: [
       {
-        q: '¿Qué es la extracción de documentos con IA? ¿Cómo me ayuda a extraer la esencia de los artículos?',
-        a: 'La extracción de documentos con IA es una herramienta inteligente que analiza automáticamente el contenido de los artículos, extrae puntos de vista esenciales e información clave, y transforma contenido complejo y extenso en hermosas imágenes de conocimiento. Le ayuda a comprender rápidamente los puntos clave de los artículos, ahorrar tiempo de lectura y mejorar la eficiencia del aprendizaje y el trabajo.'
+        q: '¿Qué es el Generador de Informes de Análisis de Datos IA?',
+        a: 'El Generador de Informes de Análisis de Datos IA es una herramienta inteligente que analiza automáticamente los datos y genera informes de análisis profesionales. Utiliza tecnologías IA avanzadas para comprender el contenido de los datos, extraer información importante y presentar los resultados del análisis de manera clara y profesional.'
       },
       {
-        q: '¿Cuáles son las ventajas de las imágenes de conocimiento? ¿Por qué son más efectivas que las notas tradicionales?',
-        a: 'Las imágenes de conocimiento utilizan presentación visual para estructurar y simplificar información compleja, facilitando así la comprensión y la memorización. En comparación con las notas tradicionales, las imágenes de conocimiento son más intuitivas, visualmente atractivas y ricas en información. Son más fáciles de compartir y revisar, mejorando significativamente la eficiencia del aprendizaje y la absorción de conocimientos.'
+        q: '¿Qué formatos de archivos de datos son compatibles?',
+        a: 'Soportamos varios formatos comunes de archivos de datos, incluyendo PDF, documentos Word (DOC/DOCX), archivos de texto (TXT), etc. El sistema puede procesar informes financieros, datos de ventas, informes de investigación de mercado y otros tipos de datos de diversos campos, permitiendo análisis inteligente y generación de informes según las características de los datos.'
       },
       {
-        q: '¿Cómo garantiza la IA que el contenido extraído refleje con precisión la esencia original?',
-        a: 'Utilizamos modelos avanzados de aprendizaje profundo que comprenden la semántica del texto y las relaciones contextuales para identificar puntos de vista centrales, argumentos clave y conclusiones importantes. Nuestra IA no solo se enfoca en palabras clave, sino que comprende las relaciones lógicas entre oraciones, asegurando que el contenido extraído refleje con precisión la esencia y la intención del autor.'
+        q: '¿Los datos están seguros? ¿Cómo se protege la privacidad?',
+        a: 'Utilizamos tecnología de encriptación avanzada para proteger los datos. Los datos subidos se utilizan únicamente para el procesamiento de análisis y se eliminan inmediatamente del servidor una vez completado. No almacenamos datos originales. Todo el proceso se realiza en un entorno seguro, garantizando el más alto nivel de protección de la privacidad de los datos.'
       },
       {
-        q: '¿Qué tipos de documentos son compatibles? ¿Puede manejar contenido especializado?',
-        a: 'Admitimos varios formatos comunes de documentos, incluidos PDF, documentos de Word (DOC/DOCX), archivos de texto (TXT) y más. El sistema puede procesar artículos de diversos campos especializados, incluidos artículos académicos, documentación técnica, informes comerciales, artículos de noticias, etc., y puede analizar y extraer de manera inteligente según las características de diferentes dominios.'
+        q: '¿Puedo personalizar o editar los informes generados?',
+        a: 'Sí, los informes generados por el sistema se pueden descargar en formato HTML y editar y personalizar según sus necesidades. En el futuro, agregaremos más opciones de personalización, incluyendo estilos de informes, tipos de gráficos, dimensiones de análisis y más, para hacer los informes más personalizados y prácticos.'
       },
       {
-        q: '¿Está seguro el contenido de mi documento? ¿Cómo se protege la privacidad?',
-        a: 'Utilizamos tecnología de encriptación avanzada para proteger el contenido de tu documento. Todos los documentos cargados se utilizan solo para el procesamiento de extracción y se eliminan inmediatamente del servidor después de completarse. No almacenamos ningún contenido original. Todo el proceso se lleva a cabo en un entorno seguro, garantizando que tu privacidad de datos reciba el más alto nivel de protección.'
+        q: '¿Este servicio es de pago? ¿Hay límites de uso?',
+        a: 'Ofrecemos un servicio básico gratuito que permite a los nuevos usuarios probar gratuitamente la generación completa de 3 informes de análisis de datos. Esto permite experimentar completamente las potentes funciones de análisis IA. Para usuarios que necesitan acceso más frecuente, ofrecemos un valioso plan premium con análisis ilimitado y funciones avanzadas adicionales.'
       },
       {
-        q: '¿Puedo personalizar o editar las imágenes de conocimiento generadas?',
-        a: 'Sí, las imágenes de conocimiento generadas por el sistema se pueden descargar en formato HTML, que puede editar y personalizar según sus necesidades. En el futuro, introduciremos más opciones de personalización, incluyendo estilos de imágenes, estructuras de diseño, marcadores de resaltado y otras características para hacer sus imágenes de conocimiento más personalizadas y prácticas.'
-      },
-      {
-        q: '¿Este servicio requiere pago? ¿Hay límites de uso?',
-        a: 'Ofrecemos un servicio básico gratuito que permite a los nuevos usuarios experimentar 3 conversiones completas de documentos sin costo, brindándote una experiencia completa de nuestras potentes capacidades de extracción con IA. Para usuarios que necesitan acceso más frecuente, proporcionamos planes premium con excelente valor que desbloquean conversiones ilimitadas y características avanzadas adicionales. Nuestra estrategia de precios busca equilibrar la accesibilidad con la sostenibilidad, asegurando que todos puedan experimentar esta poderosa herramienta mientras ofrecemos funcionalidad mejorada para usuarios intensivos.'
-      },
-      {
-        q: '¿Se admite el procesamiento multilingüe de documentos?',
-        a: 'Sí, nuestro sistema de IA puede reconocer y procesar documentos en varios idiomas, incluyendo español, inglés y otros idiomas principales. Independientemente del idioma de su documento, podemos proporcionar servicios de alta calidad para la extracción de esencia y la generación de imágenes de conocimiento.'
+        q: '¿Soporta análisis de datos multilingüe?',
+        a: 'Sí, nuestro sistema IA puede reconocer y procesar datos en varios idiomas, incluyendo inglés, chino y otros idiomas principales. Independientemente del idioma de los datos, podemos proporcionar un servicio de alta calidad de análisis de datos y generación de informes.'
       }
     ]
   },
@@ -152,8 +151,8 @@ export default {
     loading: 'Cargando...'
   },
   login: {
-    title: 'Iniciar sesión en DocSmart',
-    subtitle: 'Inicia sesión con tu cuenta de Google para continuar',
+    title: 'Iniciar sesión en textAnalytica AI',
+    subtitle: 'Experimente las mejores características de textAnalytica AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
     terms: 'Al iniciar sesión, aceptas nuestros',
     termsLink: 'Términos de servicio y Política de privacidad',
     success: 'Inicio de sesión exitoso',
@@ -176,7 +175,7 @@ export default {
   },
   pricing: {
     title: 'Elija Su Plan',
-    subtitle: 'Experimente las mejores características de TextQantum AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
+    subtitle: 'Experimente las mejores características de textAnalytica AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
     monthly: 'Suscripción mensual',
     yearly: 'Suscripción anual (Ahorre 20%)',
     highTier: {
@@ -245,15 +244,15 @@ export default {
         },
         {
           question: '¿Puedo obtener ayuda con el producto?',
-          answer: '¡Sí!\nPuede contactarnos en support@textqantum.ai para cualquier asistencia que necesite.'
+          answer: '¡Sí!\nPuede contactarnos en support@textanalytica.ai para cualquier asistencia que necesite.'
         },
         {
           question: '¿Qué es el nivel Empresarial?',
-          answer: 'Si tiene casos de uso únicos y desea saber más sobre los precios, contáctenos en sales@textqantum.ai.'
+          answer: 'Si tiene casos de uso únicos y desea saber más sobre los precios, contáctenos en sales@textanalytica.ai.'
         },
         {
           question: '¿Tengo que ser un usuario pagado para usar documentos convertidos con fines comerciales?',
-          answer: 'No. Siempre que respete los términos de uso, es libre de usar nuestras funciones de conversión de documentos para fines personales, académicos o comerciales.\nSi es un usuario gratuito, por favor indique que el documento fue convertido por TextQantum AI cuando lo use.'
+          answer: 'No. Puede utilizar libremente nuestras funciones de conversión de documentos para fines personales, académicos o comerciales mientras cumpla con nuestros términos de servicio!\nSi es un usuario gratuito, indique que el documento fue convertido por textAnalytica AI cuando lo use.'
         },
         {
           question: '¿Mi suscripción incluye acceso a la API?',
@@ -268,11 +267,11 @@ export default {
     sections: {
       acceptance: {
         title: 'Aceptación de los Términos',
-        content: 'Bienvenido a DocSmart. Al utilizar nuestro servicio, usted acepta estar sujeto a estos términos. Si no está de acuerdo con alguna parte de estos términos, por favor no utilice nuestro servicio.'
+        content: 'Bienvenido a textAnalytica AI. Al utilizar nuestro servicio, usted acepta estar sujeto a estos términos. Si no está de acuerdo con alguna parte de estos términos, por favor no utilice nuestro servicio.'
       },
       description: {
         title: 'Descripción del Servicio',
-        content: 'DocSmart AI proporciona servicios de conversión de documentos basados en IA. Nuestros servicios incluyen:',
+        content: 'textAnalytica AI proporciona servicios de conversión de documentos basados en IA. Nuestros servicios incluyen:',
         items: [
           'Conversión de documentos asistida por IA',
           'Extracción y análisis de texto',
@@ -340,7 +339,7 @@ export default {
       },
       contact: {
         title: 'Contáctenos',
-        content: 'Si tiene alguna pregunta sobre estos Términos de Servicio, por favor contáctenos en support@docsmart.app.'
+        content: 'Si tiene alguna pregunta sobre estos Términos de Servicio, por favor contáctenos en support@textanalytica.ai.'
       }
     }
   },
@@ -350,7 +349,7 @@ export default {
     sections: {
       intro: {
         title: 'Introducción',
-        content: 'En DocSmart, nos tomamos muy en serio su privacidad. Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos su información cuando utiliza nuestro servicio de conversión de documentos AI (docsmart.app, en adelante denominado el "Servicio").'
+        content: 'En textAnalytica AI, nos tomamos muy en serio su privacidad. Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos su información cuando utiliza nuestro servicio de conversión de documentos AI (textanalytica.ai, en adelante denominado el "Servicio").'
       },
       noCollection: {
         title: 'Información que No Recopilamos',
@@ -409,7 +408,7 @@ export default {
       },
       contact: {
         title: 'Contáctenos',
-        content: 'Si tiene alguna pregunta sobre esta Política de Privacidad, por favor contáctenos en support@docsmart.app.'
+        content: 'Si tiene alguna pregunta sobre esta Política de Privacidad, por favor contáctenos en support@textanalytica.ai.'
       },
       legal: {
         title: 'Base Legal',

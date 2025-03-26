@@ -128,8 +128,8 @@
           </div>
         </div>
 
-        <!-- 用户提取示例部分 -->
-        <div class="examples-section">
+        <!-- 用户提取示例部分 - 临时注释,后续需要恢复 -->
+        <!-- <div class="examples-section">
           <h2>{{ $t('features.examples.title') }}</h2>
           <p class="examples-subtitle">{{ $t('features.examples.subtitle') }}</p>
           
@@ -141,10 +141,10 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- 用户评价部分 -->
-        <!-- <Testimonials /> -->
+         <Testimonials /> 
 
         <!-- FAQ部分 -->
         <FAQ />

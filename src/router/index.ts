@@ -19,7 +19,7 @@ const routes = [
         component: () => import('../pages/settings/index.vue'),
         meta: {
           requiresAuth: true,
-          title: '设置 - AI文档提取'
+          title: '设置 - textAnalytica AI'
         }
       }
     ]
@@ -30,7 +30,7 @@ const routes = [
     name: 'pricing',
     component: () => import('../pages/pricing/index.vue'),
     meta: {
-      title: '价格套餐 - AI文档提取'
+      title: '价格套餐 - textAnalytica AI'
     }
   },
   // 添加错误页面路由
@@ -39,7 +39,7 @@ const routes = [
     name: 'error',
     component: () => import('../pages/error/index.vue'),
     meta: {
-      title: '出错了 - AI文档提取'
+      title: '出错了 - textAnalytica AI'
     }
   },
   {

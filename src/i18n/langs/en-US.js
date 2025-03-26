@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'AI Document Extractor',
+    home: 'AI Data Analysis Report Generator',
     features: 'Features',
     faq: 'FAQ',
     pricing: 'Pricing',
@@ -12,29 +12,29 @@ export default {
     loading: 'Loading...'
   },
   hero: {
-    title: 'Extract article essence with one click, transform complex content into beautiful knowledge images',
-    subtitle: '✨ Making complex content simple and understandable, making knowledge sharing more efficient ✨',
+    title: 'Smart Data Analysis Report Generator, Making Data Insights Clear',
+    subtitle: '✨ Quick Data Analysis, Professional Reports, Decision Support ✨',
     tags: {
-      free: 'Smart Extraction',
-      ai: 'Beautiful Images',
-      noRegister: 'One-Click Operation',
-      unlimited: 'Efficient Learning'
+      free: 'Smart Analysis',
+      ai: 'Professional Reports',
+      noRegister: 'One-Click Generation',
+      unlimited: 'Data Insights'
     }
   },
   upload: {
     title: 'Drop files here or click to upload',
     subtitle: 'Supports PDF, Word, TXT and more',
     button: 'Choose File',
-    converting: 'Converting...',
-    success: 'Conversion successful',
-    error: 'Conversion failed',
+    converting: 'Analyzing...',
+    success: 'Analysis Complete',
+    error: 'Analysis Failed',
     retry: 'Retry',
     cancel: 'Cancel',
-    fileSizeExceeded: 'File size exceeds user limit, please upgrade',
+    fileSizeExceeded: 'File size exceeds limit, please upgrade',
     needLogin: 'Please login first to upload files'
   },
   preview: {
-    title: 'Preview Result',
+    title: 'Preview Analysis Report',
     download: 'Download HTML',
     copy: 'Copy HTML',
     copySuccess: 'Copied Successfully',
@@ -42,119 +42,111 @@ export default {
     noContent: 'No content available'
   },
   features: {
-    title: 'Key Features of AI Article Essence Extraction',
-    subtitle: 'Experience Next-Gen AI Article Essence Extraction - Smart Analysis, Precise Extraction, Efficient Learning',
-    images: {
+    title: 'Main Features of AI Data Analysis Report Generator',
+    subtitle: 'Experience the next generation of AI data analysis report generation - Smart Analysis, Professional Reports, Data Insights',
+    cards: {
       free: {
-        title: 'AI Smart Analysis',
-        desc: 'Advanced algorithms automatically identify core viewpoints and key information, no manual filtering needed.'
+        title: 'Free to Use',
+        desc: 'Completely free AI data analysis report generator with no usage limits and no registration required.'
       },
       quality: {
-        title: 'Essence Extraction',
-        desc: 'Intelligently refines article value, condensing lengthy content into clear points, saving reading time.'
+        title: 'Highest Quality',
+        desc: 'Powered by Claude AI, ensuring the highest quality analysis reports.'
       },
       smart: {
-        title: 'Beautiful Presentation',
-        desc: 'Utilizes modern design techniques to transform content into visually appealing images for easy sharing and memorization.'
+        title: 'Smart Analysis',
+        desc: 'Accurately identifies data structure while maintaining original format and styling.'
       },
       privacy: {
-        title: 'Enhanced Privacy Protection',
-        desc: 'Advanced encryption technology ensures your document content is secure, with all data deleted immediately after processing.'
+        title: 'Enhanced Privacy',
+        desc: 'Uses advanced encryption technology to ensure your data security, with immediate deletion of all data after processing.'
       },
       understanding: {
         title: 'Advanced Text Understanding',
-        desc: 'Deep learning models understand text semantics and contextual relationships to extract truly valuable information.'
+        desc: 'Deep learning models understand text meaning and contextual relationships to extract truly valuable information.'
       },
       advanced: {
-        title: 'State-of-the-Art Quality',
-        desc: 'Based on the latest AI technology, providing industry-leading conversion quality with precise accuracy.'
+        title: 'Most Advanced Quality',
+        desc: 'Based on latest AI technology, providing industry-leading analysis quality with precise accuracy.'
       }
     },
     examples: {
-      title: 'Inspiration Gallery',
-      subtitle: 'Brilliantly Extract Article Essence',
+      title: 'Report Gallery',
+      subtitle: 'Professional Data Analysis Report Examples',
       tag: 'Example'
     }
   },
   testimonials: {
-    title: 'What Users Say About DocSmart',
-    subtitle: 'Hear from creators and professionals who use our AI document converter every day.',
+    title: 'What Users Say About textAnalytica AI',
+    subtitle: 'Hear from users across different industries about our AI-powered data analysis tool',
     list: [
       {
-        name: 'Jennifer Chen',
-        title: 'Content Creator | 100K+ Followers',
-        text: 'As a content creator, I read numerous articles daily for inspiration. DocSmart helps me quickly extract article essence and transform it into beautiful knowledge images, greatly improving my content production efficiency. I especially love the beautiful presentation feature - the generated images work perfectly for my videos and posts, and my followers love them!',
+        name: 'Michael Zhang',
+        title: 'Data Analyst | Tech Company',
+        text: 'The intelligent analysis capabilities of textAnalytica AI are impressive. It quickly understands complex data structures and generates professional analysis reports. I particularly appreciate its multilingual support, allowing me to process both Chinese and English data simultaneously, greatly improving my work efficiency.',
         avatar: ''
       },
       {
-        name: 'David Thompson',
-        title: 'Technical Documentation Engineer',
-        text: 'DocSmart has revolutionized our documentation process. The AI-powered conversion is incredibly accurate and saves us countless hours. The essence extraction feature makes complex technical content much more digestible.',
+        name: 'David Li',
+        title: 'Market Research Manager',
+        text: 'As a market research manager, I frequently need to analyze large amounts of market data. textAnalytica AI not only maintains the original data format but also intelligently extracts key information to generate clear analysis reports. Its AI analysis capabilities make data insights simple and intuitive.',
         avatar: ''
       },
       {
-        name: 'Emily Parker',
-        title: 'University Researcher',
-        text: 'The ability to maintain complex formatting while converting academic papers is invaluable. DocSmart understands document structure and contextual relationships perfectly, extracting information points with precision.',
+        name: 'Sarah Wang',
+        title: 'Financial Director',
+        text: 'When processing financial statements, textAnalytica AI\'s format preservation feature is excellent. It accurately recognizes complex formats like tables and charts, generating analysis reports that are both professional and visually appealing. The data security measures also give me peace of mind.',
         avatar: ''
       },
       {
-        name: 'Michael Anderson',
-        title: 'Business Management Consultant',
-        text: 'DocSmart streamlines our workflow by quickly converting client documents while preserving their professional appearance. The essence extraction feature allows us to quickly grasp the core points of lengthy reports.',
+        name: 'James Chen',
+        title: 'Product Manager',
+        text: 'textAnalytica AI offers a very user-friendly experience. After uploading files, the AI quickly analyzes and generates reports, making the whole process smooth and natural. The report visualization effects are also excellent, making data presentation more vivid.',
         avatar: ''
       },
       {
-        name: 'Sarah Williams',
-        title: 'Medical Records Administrator',
-        text: 'The accuracy and security features of DocSmart make it perfect for handling sensitive medical documentation. Its privacy protection measures give us tremendous confidence.',
+        name: 'Emma Liu',
+        title: 'Research Assistant',
+        text: 'When processing academic research data, textAnalytica AI\'s intelligent analysis capabilities are a great help. It accurately understands professional terminology, extracts key information, and generates well-structured research reports. The multilingual support feature also allows me to easily process international research data.',
         avatar: ''
       },
       {
-        name: 'Robert Wilson',
-        title: 'Legal Advisor',
-        text: 'DocSmart\'s conversion quality and format preservation are essential for our legal document processing needs. The depth of AI understanding makes me very satisfied with the extraction of complex legal clauses.',
+        name: 'John Zhao',
+        title: 'Operations Director',
+        text: 'textAnalytica AI\'s data security measures give me great confidence. It uses advanced encryption technology to ensure data security. Additionally, its AI analysis capabilities are powerful, quickly generating professional operational analysis reports to help us make better decisions.',
         avatar: ''
       }
     ]
   },
   faq: {
     title: 'Frequently Asked Questions',
-    subtitle: 'Have more questions? Contact us',
+    subtitle: 'Common questions about AI Data Analysis Report Generator',
     emailName: '758771757',
     emailDomain: 'qq.com',
     questions: [
       {
-        q: 'What is AI Document Extraction? How does it help me extract article essence?',
-        a: 'AI Document Extraction is an intelligent tool that automatically analyzes article content, extracts core viewpoints and key information, and transforms complex, lengthy content into beautiful knowledge images. It helps you quickly understand article points, save reading time, and improve learning and work efficiency.'
+        q: 'What is AI Data Analysis Report Generator?',
+        a: 'AI Data Analysis Report Generator is an intelligent tool that automatically analyzes your data and generates professional analysis reports. It uses advanced AI technology to understand data content, extract key information, and present analysis results in a clear and professional manner.'
       },
       {
-        q: 'What are the advantages of knowledge images? Why are they more effective than traditional notes?',
-        a: 'Knowledge images use visual presentation to structure and simplify complex information, making it easier to understand and remember. Compared to traditional notes, knowledge images are more intuitive, visually appealing, and information-dense. They are easier to share and review, significantly improving learning efficiency and knowledge absorption.'
+        q: 'What types of data files are supported?',
+        a: 'We support various common data file formats, including PDF, Word documents (DOC/DOCX), text files (TXT), and more. The system can process data from different fields, including financial reports, sales data, market research reports, etc., and can perform intelligent analysis and report generation based on data characteristics.'
       },
       {
-        q: 'How does AI ensure the extracted content accurately reflects the original essence?',
-        a: 'We use advanced deep learning models that understand text semantics and contextual relationships to identify core viewpoints, key arguments, and important conclusions. Our AI doesn\'t just focus on keywords but understands logical relationships between sentences, ensuring the extracted content accurately reflects the essence and author\'s intent.'
+        q: 'Is my data secure? How is privacy protected?',
+        a: 'We use advanced encryption technology to protect your data. All uploaded data is only used for analysis processing and is immediately deleted from the server after completion. We don\'t store any original data. The entire process takes place in a secure environment, ensuring your data privacy receives the highest level of protection.'
       },
       {
-        q: 'What types of documents are supported? Can it handle specialized content?',
-        a: 'We support various common document formats, including PDF, Word documents (DOC/DOCX), text files (TXT), and more. The system can process articles from various specialized fields, including academic papers, technical documentation, business reports, news articles, etc., and can intelligently analyze and extract based on the characteristics of different domains.'
-      },
-      {
-        q: 'Is my document content secure? How is privacy protected?',
-        a: 'We use advanced encryption technology to protect your document content. All uploaded documents are only used for extraction processing and are immediately deleted from the server after completion. We don\'t store any original content. The entire process takes place in a secure environment, ensuring your data privacy receives the highest level of protection.'
-      },
-      {
-        q: 'Can I customize or edit the generated knowledge images?',
-        a: 'Yes, the knowledge images generated by the system can be downloaded in HTML format, which you can edit and customize as needed. In the future, we will introduce more customization options, including image styles, layout structures, highlight markers, and other features to make your knowledge images more personalized and practical.'
+        q: 'Can I customize or edit the generated reports?',
+        a: 'Yes, the reports generated by the system can be downloaded in HTML format, which you can edit and customize as needed. In the future, we will introduce more customization options, including report styles, chart types, analysis dimensions, and other features to make your reports more personalized and practical.'
       },
       {
         q: 'Does this service require payment? Are there usage limits?',
-        a: 'We offer a basic free service that allows new users to experience 3 complete document conversions at no cost, giving you a full taste of our powerful AI extraction capabilities. For users who need more frequent access, we provide value-packed premium plans that unlock unlimited conversions and additional advanced features. Our pricing strategy aims to balance accessibility with sustainability, ensuring everyone can experience this powerful tool while offering enhanced functionality for heavy users.'
+        a: 'We offer a basic free service that allows new users to experience 3 complete data analysis report generations at no cost, giving you a full taste of our powerful AI analysis capabilities. For users who need more frequent access, we provide value-packed premium plans that unlock unlimited analysis and additional advanced features.'
       },
       {
-        q: 'Does it support multilingual document processing?',
-        a: 'Yes, our AI system can recognize and process documents in multiple languages, including English, Chinese, and other major languages. Regardless of the language your document is in, we can provide high-quality essence extraction and knowledge image generation services.'
+        q: 'Does it support multilingual data analysis?',
+        a: 'Yes, our AI system can recognize and process data in multiple languages, including English, Chinese, and other major languages. Regardless of the language your data is in, we can provide high-quality data analysis and report generation services.'
       }
     ]
   },
@@ -166,8 +158,8 @@ export default {
     details: 'Error Details'
   },
   login: {
-    title: 'Login to DocSmart',
-    subtitle: 'Sign in with your Google account to continue',
+    title: 'Login to textAnalytica AI',
+    subtitle: 'Experience the best features of textAnalytica AI: faster document processing and advanced format preservation',
     terms: 'By signing in, you agree to our',
     termsLink: 'Terms of Service and Privacy Policy',
     success: 'Login Successful',
@@ -183,7 +175,7 @@ export default {
   },
   pricing: {
     title: 'Choose Your Plan',
-    subtitle: 'Experience the best features of TextQantum AI: faster document processing and advanced format preservation',
+    subtitle: 'Experience the best features of textAnalytica AI: faster document processing and advanced format preservation',
     monthly: 'Monthly subscription',
     yearly: 'Annual subscription (Save 20%)',
     highTier: {
@@ -252,15 +244,15 @@ export default {
         },
         {
           question: 'Can I get help with the product?',
-          answer: 'Yes!\nYou can contact us at support@textqantum.ai for any assistance you need.'
+          answer: 'Yes!\nYou can contact us at support@textanalytica.ai for any assistance you need.'
         },
         {
           question: 'What is the Enterprise tier?',
-          answer: 'If you have unique use cases and want to learn more about pricing, please contact us at sales@textqantum.ai.'
+          answer: 'If you have unique use cases and want to learn more about pricing, please contact us at sales@textanalytica.ai.'
         },
         {
           question: 'Do I have to be a paid user to use converted documents for commercial purposes?',
-          answer: 'No. As long as you respect the terms of use, you are free to use our document conversion features for personal, academic, or commercial purposes!\nIf you are a free user, please attribute that the document was converted by TextQantum AI when using it.'
+          answer: 'No. You are free to use our document conversion features for personal, academic, or commercial purposes as long as you respect the terms of service!\nIf you are a free user, please attribute that the document was converted by textAnalytica AI when using it.'
         },
         {
           question: 'Does my subscription include API access?',

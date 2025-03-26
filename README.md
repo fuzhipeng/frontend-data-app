@@ -1,149 +1,149 @@
-# AI文档转换系统
+# textAnalytica AI
 
-# 前端开发进度
+# Frontend Development Progress
 
-## 当前开发状态
+## Current Development Status
 
-### 已完成的组件
-1. **App.vue (根组件)**
-   - 基础路由视图集成
-   - 全局样式设置
-   - 响应式布局基础
+### Completed Components
+1. **App.vue (Root Component)**
+   - Basic route view integration
+   - Global style settings
+   - Responsive layout foundation
 
-2. **首页组件 (src/pages/home/index.vue)**
-   - 完整的页面布局
-   - 深色主题设计
-   - 响应式设计
-   - 组件功能：
-     - 顶部导航栏（带锚点滚动）
-     - 文件上传区域
-     - 转换进度显示
-     - 结果预览区域
-     - 功能特点展示
-     - 用户评价展示
-     - FAQ问答展示
-     - 用户积分显示
-     - 模拟登录功能
+2. **Homepage Component (src/pages/home/index.vue)**
+   - Complete page layout
+   - Dark theme design
+   - Responsive design
+   - Component features:
+     - Top navigation bar (with anchor scrolling)
+     - File upload area
+     - Conversion progress display
+     - Result preview area
+     - Feature showcase
+     - User testimonials
+     - FAQ section
+     - User points display
+     - Mock login functionality
 
-3. **登录弹窗组件**
-   - 深色主题设计
-   - Google OAuth登录集成
-   - 响应式布局
+3. **Login Modal Component**
+   - Dark theme design
+   - Google OAuth login integration
+   - Responsive layout
 
-4. **FAQ组件 (src/components/FAQ.vue)**
-   - 问答列表展示
-   - 响应式布局
-   - 动画效果
-   - 多语言支持
+4. **FAQ Component (src/components/FAQ.vue)**
+   - Q&A list display
+   - Responsive layout
+   - Animation effects
+   - Multi-language support
 
-5. **Testimonials组件 (src/components/Testimonials.vue)**
-   - 用户评价轮播
-   - 自动滚动效果
-   - 响应式布局
-   - 多语言支持
+5. **Testimonials Component (src/components/Testimonials.vue)**
+   - User testimonial carousel
+   - Auto-scroll effect
+   - Responsive layout
+   - Multi-language support
 
-### 已实现的功能
-1. **用户认证**
-   - Google账号登录
-   - 用户会话管理
-   - 登录状态持久化
-   - 模拟登录功能（用于测试）
+### Implemented Features
+1. **User Authentication**
+   - Google account login
+   - User session management
+   - Login state persistence
+   - Mock login functionality (for testing)
 
-2. **用户积分系统**
-   - 积分显示功能
-   - 顶部导航栏中显示用户积分
-   - 从API获取积分数据
-   - 多语言支持积分显示
+2. **User Points System**
+   - Points display functionality
+   - User points display in top navigation bar
+   - Points data fetching from API
+   - Multi-language support for points display
 
-3. **文件上传**
-   - 拖拽上传
-   - 点击上传
-   - 文件大小显示
-   - 支持的文件格式：PDF、DOC、DOCX、TXT
+3. **File Upload**
+   - Drag and drop upload
+   - Click to upload
+   - File size display
+   - Supported file formats: PDF, DOC, DOCX, TXT
 
-4. **文件转换**
-   - 转换进度显示
-   - 状态管理
-   - 错误处理
-   - 重试机制
-   - 取消功能
-   - 转换结果自动获取
+4. **File Conversion**
+   - Conversion progress display
+   - State management
+   - Error handling
+   - Retry mechanism
+   - Cancel functionality
+   - Automatic result fetching
 
-5. **结果处理**
-   - HTML预览
-   - 下载HTML
-   - 复制HTML内容
+5. **Result Processing**
+   - HTML preview
+   - HTML download
+   - HTML content copying
 
 6. **UI/UX**
-   - 深色主题
-   - 响应式布局
-   - 交互动画
-   - 用户提示
-   - 平滑滚动
-   - 导航栏固定定位
-   - 导航栏锚点滚动（特性、常见问题等）
+   - Dark theme
+   - Responsive layout
+   - Interactive animations
+   - User prompts
+   - Smooth scrolling
+   - Fixed navigation bar
+   - Navigation bar anchor scrolling (Features, FAQ, etc.)
 
-7. **国际化支持**
-   - 多语言切换
-   - 支持8种语言：
+7. **Internationalization Support**
+   - Multi-language switching
+   - Support for 8 languages:
+     - English (Default)
      - 简体中文
-     - English
      - 日本語
      - 한국어
      - Français
      - Deutsch
      - Español
      - Русский
-   - 自动检测浏览器语言
-   - 语言设置持久化
+   - Browser language auto-detection
+   - Language setting persistence
 
-8. **API集成**
-   - 用户积分获取API
-   - 文件上传和转换API
-   - 修复API响应处理
-   - 优化错误处理
-   - 请求超时控制
-   - 转换状态轮询
+8. **API Integration**
+   - User points retrieval API
+   - File upload and conversion API
+   - API response handling repair
+   - API error handling optimization
+   - Request timeout control
+   - Conversion status polling
 
-## 前端项目结构
+## Frontend Project Structure
 ```
 src/
-├── App.vue                 # 根组件
-├── main.js                # 入口文件
-├── assets/                # 静态资源
+├── App.vue                 # Root Component
+├── main.js                # Entry File
+├── assets/                # Static Resources
 │   └── logo.svg
-├── api/                   # API接口
-│   ├── user.js           # 用户相关API
-│   └── convert.js        # 文件转换API
-├── components/            # 公共组件
-│   ├── FAQ.vue           # FAQ组件
-│   ├── Testimonials.vue  # 用户评价组件
-│   ├── LoginDialog.vue   # 登录弹窗组件
-│   └── GoogleLogin.vue   # Google登录组件
-├── i18n/                 # 国际化
-│   ├── index.js         # i18n配置
-│   └── langs/           # 语言文件
+├── api/                   # API Interface
+│   ├── user.js           # User Related API
+│   └── convert.js        # File Conversion API
+├── components/            # Public Components
+│   ├── FAQ.vue           # FAQ Component
+│   ├── Testimonials.vue  # User Testimonial Component
+│   ├── LoginDialog.vue   # Login Modal Component
+│   └── GoogleLogin.vue   # Google Login Component
+├── i18n/                 # Internationalization
+│   ├── index.js         # i18n Configuration
+│   └── langs/           # Language Files
 │       ├── zh-CN.js
 │       ├── en-US.js
 │       └── ...
-├── pages/               # 页面组件
+├── pages/               # Page Components
 │   └── home/           
-│       └── index.vue   # 首页组件
-├── stores/              # 状态管理
-│   └── user.ts         # 用户状态存储
-├── router/             # 路由配置
+│       └── index.vue   # Homepage Component
+├── stores/              # State Management
+│   └── user.ts         # User State Storage
+├── router/             # Routing Configuration
 │   └── index.js
-├── types/              # TypeScript类型定义
+├── types/              # TypeScript Type Definitions
 │   ├── env.d.ts
 │   └── components.d.ts
-├── utils/              # 工具函数
-│   └── request.js      # 请求工具
-├── views/              # 视图组件
-│   └── Login.vue       # 登录页面组件
-└── main/               # 主要功能
+├── utils/              # Utility Functions
+│   └── request.js      # Request Tool
+├── views/              # View Components
+│   └── Login.vue       # Login Page Component
+└── main/               # Main Functionality
 ```
 
-## 前端技术栈
+## Frontend Technology Stack
 - Vue 3
 - Vue Router
 - Vue I18n
@@ -152,61 +152,61 @@ src/
 - TypeScript
 - Vite
 
-## 前端开发计划
+## Frontend Development Plan
 
-### 待完成页面
-1. **用户认证页面**
-   - 登录
-   - 注册
-   - 找回密码
+### Pages to be Completed
+1. **User Authentication Page**
+   - Login
+   - Registration
+   - Password Recovery
 
-2. **用户中心页面**
-   - 个人信息
-   - 账户余额
-   - 使用记录
-   - 充值入口
+2. **User Center Page**
+   - Personal Information
+   - Account Balance
+   - Usage Records
+   - Recharge Entry
 
-3. **支付页面**
-   - 充值金额选择
-   - 支付方式选择
-   - 订单确认
-   - 支付结果
+3. **Payment Page**
+   - Recharge Amount Selection
+   - Payment Method Selection
+   - Order Confirmation
+   - Payment Result
 
-### 功能优化
-1. **文件上传**
-   - 添加文件类型验证
-   - 添加文件大小限制
-   - 支持多文件上传
-   - 添加上传队列管理
+### Feature Optimization
+1. **File Upload**
+   - Add File Type Verification
+   - Add File Size Limit
+   - Support Multiple File Uploads
+   - Add Upload Queue Management
 
-2. **转换功能**
-   - 添加转换选项配置
-   - 优化错误处理
-   - 添加批量转换功能
-   - 支持更多文件格式
+2. **Conversion Function**
+   - Add Conversion Option Configuration
+   - Optimize Error Handling
+   - Add Batch Conversion Function
+   - Support More File Formats
 
-3. **用户体验**
-   - 添加操作引导
-   - 优化加载状态
-   - 添加快捷键支持
-   - 优化移动端适配
+3. **User Experience**
+   - Add Operation Guidance
+   - Optimize Loading State
+   - Add Shortcut Key Support
+   - Optimize Mobile Adaptation
 
-## 前端问题和待解决事项
-1. 需要完善用户认证系统
-2. 需要完善错误处理机制
-3. 需要添加文件格式验证
-4. 需要优化移动端适配
+## Frontend Issues and Pending Tasks
+1. Need to Improve User Authentication System
+2. Need to Improve Error Handling Mechanism
+3. Need to Add File Format Verification
+4. Need to Optimize Mobile Adaptation
 
-## 前端更新日志
-- 2024-04-05: 添加用户积分显示功能
-- 2024-04-04: 实现模拟登录功能方便测试
-- 2024-03-22: 简化登录方式,仅保留Google登录
-- 2024-03-21: 创建项目基础结构
-- 2024-03-21: 完成首页基础布局和功能
-- 2024-03-21: 完成文件上传和转换功能
-- 2024-03-21: 添加FAQ和用户评价组件
-- 2024-03-21: 实现多语言支持
-- 2024-03-21: 优化导航栏和页面滚动体验
-- 2024-03-16: 修复API响应处理
-- 2024-03-16: 优化文件转换流程
-- 2024-03-16: 添加转换状态轮询 
+## Frontend Update Log
+- 2024-04-05: Added User Points Display Function
+- 2024-04-04: Implemented Mock Login Functionality for Testing
+- 2024-03-22: Simplified Login Method, Only Kept Google Login
+- 2024-03-21: Created Project Basic Structure
+- 2024-03-21: Completed Homepage Basic Layout and Functionality
+- 2024-03-21: Completed File Upload and Conversion Functionality
+- 2024-03-21: Added FAQ and User Testimonial Components
+- 2024-03-21: Implemented Multi-language Support
+- 2024-03-21: Optimized Navigation Bar and Page Scroll Experience
+- 2024-03-16: Fixed API Response Handling
+- 2024-03-16: Optimized File Conversion Process
+- 2024-03-16: Added Conversion Status Polling 
