@@ -751,8 +751,8 @@ const startConvert = async () => {
       formData.append('userId', userStore.user.id)
     }
       // 发送POST请求上传文件
-      console.log('正在调用上传API:', `${apiBaseUrl.value}/api/file/upload`)
-      const response = await axios.post(`${apiBaseUrl.value}/api/file/upload`, formData, {
+      console.log('正在调用上传API:', `${apiBaseUrl.value}/api/file/uploadData`)
+      const response = await axios.post(`${apiBaseUrl.value}/api/file/uploadData`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
@@ -1015,8 +1015,48 @@ watch(() => userStore.isAuthenticated, (newValue) => {
 <style scoped>
 .home {
   min-height: 100vh;
-  background-color: #1a1a1a;
+  background-color: #111111;
   color: #e0e0e0;
+  position: relative;
+  overflow: hidden;
+}
+
+.home::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    linear-gradient(to bottom right, rgba(30, 30, 30, 0.8) 0%, transparent 100%),
+    linear-gradient(to top right, rgba(20, 20, 20, 0.8) 0%, transparent 100%),
+    repeating-linear-gradient(45deg, 
+      rgba(25, 25, 25, 0.1) 0px, 
+      rgba(25, 25, 25, 0.1) 1px,
+      transparent 1px, 
+      transparent 10px
+    ),
+    repeating-linear-gradient(-45deg, 
+      rgba(25, 25, 25, 0.1) 0px, 
+      rgba(25, 25, 25, 0.1) 1px,
+      transparent 1px, 
+      transparent 10px
+    );
+  pointer-events: none;
+  z-index: 0;
+}
+
+.home::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(40, 40, 40, 0.3) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
 }
 
 .header {
@@ -1108,6 +1148,8 @@ watch(() => userStore.isAuthenticated, (newValue) => {
   & > div:not(:last-child) {
     margin-bottom: 1.5rem;
   }
+  position: relative;
+  z-index: 1;
 }
 
 .hero-section {
